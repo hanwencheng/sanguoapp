@@ -1,0 +1,34 @@
+#hero-abilities{
+    height:100%;
+    flex: 1 1 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+    .hero-ability{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+        .hero-ability-name{
+            flex:1 1 40%;
+            padding:5px;
+        }
+
+        .hero-ability-value{
+            flex:1 1 60%;
+            text-align: center;
+            padding: 5px;
+            width: 30%;
+        }
+
+        .hero-ability-comment{
+            padding: 10px;
+            display: none;
+            position:absolute;
+            color:#fff;
+            background-color: #000;
+        }

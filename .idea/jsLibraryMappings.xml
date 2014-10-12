@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{sanguoapp node_modules}" />
+    <file url="file://$PROJECT_DIR$/js/hero/init.js" libraries="{Chartjs, WebGL}" />
+    <file url="file://$PROJECT_DIR$/js/support/Chart.min.js" libraries="{WebGL}" />
+    <file url="PROJECT" libraries="{Chartjs, sanguoapp node_modules}" />
+    <includedPredefinedLibrary name="Node.js Globals" />
+  </component>
+</project>
+

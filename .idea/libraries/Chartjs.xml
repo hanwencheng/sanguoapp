@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Chartjs" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/js/support/Chart.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/js/support/Chart.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

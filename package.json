@@ -1,0 +1,45 @@
+{
+  "name": "zugzug",
+  "version": "0.0.1",
+  "description": "new sketch zugzug on heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/281494498/zugzug"
+  },
+  "keywords": [
+    "zugzug"
+  ],
+  "author": "Hanwen Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/281494498/zugzug/issues"
+  },
+  "dependencies": {
+    "express": "~4.1.1",
+    "logfmt": "~1.1.2",
+    "ejs": "~1.0.0",
+    "passport": "~0.2.0",
+    "mongoose": "~3.8.8",
+    "passport-local": "~1.0.0",
+    "passport-twitter": "~1.0.2",
+    "passport-facebook": "~1.0.3",
+    "passport-google-oauth": "~0.1.5",
+    "bcrypt-nodejs": "0.0.3",
+    "morgan": "~1.0.1",
+    "express-flash": "0.0.2",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.1.1",
+    "express-session": "~1.0.4",
+    "consolidate": "~0.10.0",
+    "handlebars": "~2.0.0-alpha.4",
+    "socket.io": "~1.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.28"
+  }
+}

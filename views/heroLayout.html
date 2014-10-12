@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/pure-release-0.5.0/pure.css">
+    <link rel="stylesheet" href="../css/darkblue.css">
+    <link href="../css/heroLayout.css" rel="stylesheet">
+    <link href="../css/hero.chart.css" rel="stylesheet">
+    <link href="../css/hero.link.css" rel="stylesheet">
+    <!--<script src="../js/support/jquery1.11-mini.js"></script>-->
+    <script>
+        {{#if user}}
+            var sanguoUser= {{{user}}};
+            var hero = {{{hero}}};
+        {{/if}}
+            //avoid to use this $.ready function here
+//            $(function(){
+//                if(window.sanguoUser){
+//                    console.log('our user id is' + window.sanguoUser._id);
+//                }
+//                //should move to secure place other than here, also could store as less information as possible,
+//                //and query the information when first use it.(like amazon)
+//                window.addEventListener('unload', function(){ delete window.sanguoUser;}, false);
+//            });
+    </script>
+    <script data-main="../js/hero/global" src="../js/support/require.js"></script>
+    <title></title>
+</head>
+<body>
+    <header id="header-hero">nav</header>
+    <div id="main-hero">
+        <div id="hero-img">img</div>
+        <div id="hero-chart">charts
+
+        </div>
+
+        <div id="hero-links"></div>
+        <div id="hero-ability">ability</div>
+        <div id="hero-history">history</div>
+        <div id="hero-search">search</div>
+    </div>
+    <footer id="footer-hero"></footer>
+</body>
+</html>

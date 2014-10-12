@@ -1,0 +1,70 @@
+/*
+ * -- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+
+.sanguo-header {
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    z-index:10;
+    text-align: left;
+    /*box-shadow: 0 1px 1px rgba(0,0,0, 0.10);*/
+}
+
+
+.sanguo-header .pure-menu {
+    height: 37px;
+    border-bottom:none;
+}
+
+.sanguo-header ul {
+    float: right;
+}
+
+.sanguo-header .pure-menu-heading {
+    float: left;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.sanguo-header .sanguo-header-account{
+    display: none;
+    padding:1em;
+    position:absolute;
+    right:0;
+    /*height:400px;*/
+    /*width:300px;*/
+    z-index: 3;
+    background-color: #eaeaf1;
+    border-radius: 10px;
+}
+
+.sanguo-header .pure-form #user, .sanguo-header .pure-form #password {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.sanguo-header .pure-form #remember{
+    width:1em;
+    height:1em;
+}
+
+@media (max-width: 48em) {
+    .sanguo-header {
+        text-align: center;
+        position: relative;
+    }
+    .sanguo-header ul{
+        float:none;
+    }
+
+    .sanguo-header .pure-menu-heading{
+        float:none;
+    }
+}
