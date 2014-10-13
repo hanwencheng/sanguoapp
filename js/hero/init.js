@@ -2,7 +2,7 @@
  * Created by hanwen on 17.08.14.
  */
 
-define(['require','hero/chart','hero/img', 'hero/link'],function(require) {
+define(['require','hero/chart','hero/img', 'hero/link','hero/abilities'],function(require) {
 
     //setup jobs
     console.log(hero , ' action start' ,  sanguoUser);
@@ -12,8 +12,6 @@ define(['require','hero/chart','hero/img', 'hero/link'],function(require) {
     chart.initChart();
 
     var img = require('hero/img');
-
-
 
     $(function () {
 
