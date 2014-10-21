@@ -51,7 +51,7 @@ header{
 
     #hero-ability{
         flex:1 1 100%;
-        height:200px;
+        /*height:200px;*/
     }
 
     #hero-history{

@@ -13,6 +13,6 @@ define(['require','text!hero/abilities.html'],function(require, html){
     abilities = ['rider', 'cool', 'strong', 'quiet'];
 
     abilities.forEach(function(ability){
-
+        console.log('good');
     });
 });

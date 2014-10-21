@@ -1,11 +1,12 @@
 .btn {
     border: none;
+    border-radius: 10px;
     font-family: inherit;
     font-size: inherit;
     color: inherit;
     background: none;
     cursor: pointer;
-    padding: 25px 80px;
+    padding: 10px 40px;
     display: inline-block;
     margin: 15px 30px;
     text-transform: uppercase;
@@ -18,8 +19,9 @@
 }
 
 .btn-pull {
-    background: #823aa0;
-    color: #fff;
+    background: #f2faf0;
+    box-shadow: 5px 5px 5px #888888;
+    color: #000;
     font-size: 16px;
     overflow: hidden;
     backface-visibility: hidden;
@@ -57,12 +59,8 @@
     top: 2px;
 }
 
-#ability-1{
-    background-color: #00bcd4;
+#ability-1, #ability-2, #ability-3, #ability-4{
+    background-color: #e0cea5;
     display: flex;
     justify-content: space-around;
-}
-
-#ability-2{
-    background-color: #00fdd1;
 }
