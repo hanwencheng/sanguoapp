@@ -7,7 +7,6 @@ define(['require','text!hero/abilities.html'],function(require, html){
     var stateMap = {
 
     };
-
 //    container.innerHTML = html;
 
     var abilities = ['rider', 'cool', 'strong', 'quiet',
