@@ -55,7 +55,7 @@ header{
     }
 
     #hero-history{
-        height:500px;/*should be flexible*/
+        /*height:500px;*//*should be flexible*/
         flex:1 1 100%;
         /*background-color: yellowgreen;*/
     }
